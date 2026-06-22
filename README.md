@@ -1,36 +1,38 @@
 # Sorlyn Browser
 
-Sorlyn is an early, experimental web browser built on the Firefox open-source
-codebase. It focuses on privacy-first defaults, a clean and maintainable
-open-source architecture, and a distinct identity that is separate from Mozilla
-and Firefox.
+Sorlyn is an early, experimental web browser project that is planned to be based
+on the Firefox open-source codebase. It focuses on privacy-first defaults, a
+clean and maintainable open-source architecture, and a distinct identity that is
+separate from Mozilla and Firefox.
 
 > **Project status: early / pre-alpha.**
-> Sorlyn is currently in the project-scaffolding stage. There is no installable
-> build yet, and the components described below are planned rather than
-> implemented. This repository establishes the project structure, documentation,
-> and licensing groundwork only.
+> Sorlyn is currently in the project-scaffolding stage. The Firefox upstream
+> source has not been imported yet, there is no installable build, and the
+> components described below are planned rather than implemented. This repository
+> establishes the project structure, documentation, and licensing groundwork
+> only.
 
 ## What Sorlyn is
 
-- A Firefox-based browser fork with its own branding, identity, and roadmap.
+- A planned Firefox-based browser with its own branding, identity, and roadmap.
 - Privacy-focused by default, with the intent to document every changed default.
 - Open source, licensed under the Mozilla Public License 2.0 (MPL-2.0) unless
   otherwise noted.
 
 Sorlyn aims to be small, reviewable, and maintainable. Changes are intended to
-be minimal and auditable so that anyone can understand how Sorlyn differs from
-upstream Firefox.
+be minimal and auditable so that anyone can understand how Sorlyn will differ
+from upstream Firefox.
 
 ## Relationship to Mozilla and Firefox
 
 Sorlyn is an independent project. **Sorlyn is not affiliated with, sponsored by,
 or endorsed by Mozilla.**
 
-Sorlyn is built on the Firefox source code, which Mozilla publishes under the
-Mozilla Public License 2.0. "Firefox" and "Mozilla" — including their associated
-names and logos — are trademarks of the Mozilla Foundation. Those trademarks
-belong to Mozilla and are not part of Sorlyn's branding.
+Sorlyn is planned to be built on the Firefox source code, which Mozilla
+publishes under the Mozilla Public License 2.0. "Firefox" and "Mozilla" —
+including their associated names and logos — are trademarks of the Mozilla
+Foundation. Those trademarks belong to Mozilla and are not part of Sorlyn's
+branding.
 
 Sorlyn uses its own branding, identity, and roadmap, and does not represent the
 views of Mozilla. For details, see [`TRADEMARKS.md`](./TRADEMARKS.md) and
@@ -72,9 +74,9 @@ not yet implemented. See [`docs/SORLYN_SYNC.md`](./docs/SORLYN_SYNC.md).
 └── README.md            This file
 ```
 
-The `sorlyn/` directory holds Sorlyn-specific work and is intentionally kept
-separate from upstream Firefox source. Firefox internals are not modified or
-renamed at this stage.
+The `sorlyn/` directory holds Sorlyn-specific work and is intended to remain
+separate from upstream Firefox source once that source is imported. Firefox
+internals are not modified or renamed at this stage.
 
 ## Documentation
 

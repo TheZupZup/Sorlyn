@@ -15,11 +15,12 @@ is a living document and will grow as the project develops.
 
 ## Foundation: Firefox / Gecko
 
-Sorlyn is based on the Firefox open-source codebase, which is built on the Gecko
-engine and is published by Mozilla under MPL-2.0. At this stage, Firefox
-internals are **not** modified or renamed. The upstream source is treated as a
-foundation that Sorlyn builds on top of, rather than something to fork and edit
-broadly.
+Sorlyn is planned to be based on the Firefox open-source codebase, which is built
+on the Gecko engine and is published by Mozilla under MPL-2.0. The Firefox
+upstream source has not been imported yet; at this stage, Firefox internals are
+**not** modified or renamed. Once imported, the upstream source is intended to be
+treated as a foundation that Sorlyn builds on top of, rather than something to
+fork and edit broadly.
 
 ## Project structure
 
@@ -67,9 +68,9 @@ replacing visible product naming carefully and auditably. See
 
 ## Relationship to upstream
 
-Where possible, Sorlyn prefers configuration, additive modules, and documented
-default changes over edits to upstream source. Any change that must be made
-inside upstream files will be documented so that it can be re-applied and
+Where possible, Sorlyn intends to prefer configuration, additive modules, and
+documented default changes over edits to upstream source. Any change that must
+be made inside upstream files will be documented so that it can be re-applied and
 reviewed when tracking newer Firefox releases.
 
 ## Status

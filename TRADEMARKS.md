@@ -5,9 +5,9 @@ informational and is not legal advice.
 
 ## Mozilla and Firefox trademarks
 
-Sorlyn is built on the Firefox open-source codebase. "Firefox" and "Mozilla",
-together with their associated names and logos, are trademarks of the Mozilla
-Foundation. **Those trademarks belong to Mozilla.**
+Sorlyn is planned to be built on the Firefox open-source codebase. "Firefox" and
+"Mozilla", together with their associated names and logos, are trademarks of the
+Mozilla Foundation. **Those trademarks belong to Mozilla.**
 
 The Mozilla Public License 2.0, under which the Firefox source code is released,
 grants rights to the **source code** but does **not** grant any rights to use
@@ -17,7 +17,7 @@ Mozilla's or Firefox's trademarks, names, or logos. Because of this:
   branding.
 - Sorlyn is a distinct product with its own name and identity.
 - References to "Firefox" or "Mozilla" in this repository are made solely for
-  accurate attribution and description, to explain Sorlyn's origins and
+  accurate attribution and description, to explain Sorlyn's intended origins and
   technical basis.
 
 For Mozilla's own policies, see Mozilla's trademark and branding guidance at

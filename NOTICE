@@ -14,11 +14,14 @@ also available at:
 Firefox source code
 -------------------
 
-Sorlyn is based on the Firefox open-source codebase, which is published by
-Mozilla under the Mozilla Public License, version 2.0. Portions of Sorlyn are
-derived from that source. The original Firefox source and its own notices,
-licenses, and attributions remain with their respective authors and are
-governed by their original license terms.
+Sorlyn is intended to be based on the Firefox open-source codebase, which is
+published by Mozilla under the Mozilla Public License, version 2.0. At present,
+this repository contains only Sorlyn's own documentation and project structure;
+the Firefox upstream source has not been imported yet.
+
+Once that source is imported, portions of Sorlyn will be derived from it. The
+original Firefox source and its own notices, licenses, and attributions remain
+with their respective authors and are governed by their original license terms.
 
 Sorlyn is an independent project. It is not affiliated with, sponsored by, or
 endorsed by Mozilla.
@@ -38,7 +41,7 @@ See TRADEMARKS.md for additional detail on trademark usage and attribution.
 Third-party software
 ---------------------
 
-Sorlyn incorporates third-party software, including the Firefox codebase and
-its dependencies. Each such component remains under its own license. As Sorlyn
-develops, additional third-party notices will be recorded here and in the
-relevant subdirectories.
+Sorlyn is intended to incorporate third-party software, including the Firefox
+codebase and its dependencies. Each such component will remain under its own
+license. As Sorlyn develops, additional third-party notices will be recorded
+here and in the relevant subdirectories.
